@@ -1,3 +1,26 @@
+# Smart Menu React App
+
+Using an API called Tasty by Dojo APIs to fetch meals searched for either by ingredients or key words. The API returns information about cook/prep times, ingredients required, recipes, and instruction's, as well as nutritional values.
+
+I would like to continue working on this small project not only to demonstrate my ability to work with React and RESTful API's but also to expand on this idea and later include some filters that pertain to an individuals personal activity records and exercise goals.
+
+
+Continous deployment with Github and Netlify
+https://smart-menu-react.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78779994-06a3-44aa-9f71-0a89035ce7ac/deploy-status)](https://app.netlify.com/sites/smart-menu-react/deploys)
+### To do's
+
+1. Clean up UI 
+  a. (Animate toggling between food cards.)
+  b. (Animate cards flipping with Recipe and instructions on back.)
+2. Add small form to filter meals by individual macro-nutrient needs
+3. Fix prev and next buttons
+4. Clean up styling altogether 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

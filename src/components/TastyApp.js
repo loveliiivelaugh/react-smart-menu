@@ -149,8 +149,8 @@ const TastyApp = () => {
     await fetch("https://tasty.p.rapidapi.com/recipes/list?from=0&size=40&tags=under_30_minutes&q=" + name, {
       "method": "GET",
       "headers": {
-        "x-rapidapi-key": process.env.REACT_APP_KEY || "ac72153c36mshd1814c8f1af20f3p1518fbjsnabee85184908",
-        "x-rapidapi-host": process.env.REACT_APP_HOST || "tasty.p.rapidapi.com"
+        "x-rapidapi-key": process.env.REACT_APP_KEY,
+        "x-rapidapi-host": process.env.REACT_APP_HOST
       }
     })
     .then(response => response.json())
